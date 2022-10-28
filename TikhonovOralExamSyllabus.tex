@@ -1,33 +1,45 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
-\title{OralExamProgramm}
+\title{Oral Exam Syllabus}
 \author{Mikhail Tikhonov}
-\date{April 2022}
-
+\date{}
 \begin{document}
 
 \maketitle
 
-\section{Probability - I}
+This syllabus is mainly a combination of two advanced courses: MATH 7370 (Probability II) taught by L. Petrov during Spring 2021 and MATH 7360 (Probability I) by Christian Gromoll during Spring 2022. Some material from MATH 8852 (Asymptotic Representation Theory) is also included to emphasize connections with algebra and combinatorics.
+
+\section*{Topics from Probability I}
 
 \begin{enumerate}
-    \item Measure Spaces, $\pi - \lambda$ theorem. Random Variables, distribution functions, independent events and $\sigma-$algebras. Poisson random variable and poisson process.
-    \item Kolomogorov $0-1$ law, tail $\sigma-$ algebra. Examples (branching process, mokey and Shakespeare)
+    \item Measure Spaces, $\pi - \lambda$ theorem. Random Variables, distribution functions, independent events and $\sigma-$algebras. Poisson random variable and poisson process\footnote{covered in MATH 7370}.
+    \item Kolomogorov $0-1$ law, tail $\sigma-$ algebra. Examples (branching process, monkey and Shakespeare)
     \item Expectation, variance and covarience for independent random variables. "Easy" strong law, Chebushev's inequality
     \item Conditional expectation: fundamental theorem and definition by Kolmogorov, properties of conditional expectations. 
     \item Filtration, adapted process. Martingale, supermartingale, submartingale. Stopping time theorems, Doob's optional stopping theorem.
     \item Kolomogorov three-Series theorem, Kolmogorov Strong Law of Large numbers. 
     \item Radon-Nikodym theroem via martingales. Conditional expectaitions.
+    \item Levy's Convergence Theorem. Central Limit Theorem. 
 \end{enumerate}
 
-\section{Particle Systems and Asymptotic representation theory}
+\section*{Topics from Probability II: Particle Systems and related concepts from Asymptotic representation theory}
 \begin{enumerate}
-    \item TASEP, height function and random interface growth. 
-    \item Schur polynomials, skew schur polynomials. Orthogonality, specializations.
+    \item Definition and existance of TASEP. Height function and random interface growth. 
+    \item Subadditivity. Last passage percolation model. Fekete's lemma for superadditive sequence and limit in expectation. 
+    \item Gibbs measures and harmonic functions. Schur polynomials as eigenfunctions of $q-$difference operator.
+    \item Determenant definition of schur polynomials, skew schur polynomials. Orthogonality, Cauchy identity.
     \item Branching graphs. Relative dimensions, shifted schur polynomials. Vershik ergodic theorem and boundaries of a graph.  Examples: Pascal graph, Young graph. $q-$analogues.
     \item Weyl character formula. Hook-content formula and prinicpal specialization of schur polynomials.
+    \item TASEP and Schur measure. Asympotics of the density via saddle point analysis for contour integrals.
+    \item TASEP as determinantal point process. Gap probability. Fredholm asympotitcs. KPZ universality.
     \item Lozenge tillings, six-vertex model, height function. Hall-Littlewood polynomials and connection to Schurs. Height function of six vertex model and Holly Little wood measure.
-    \item Multi-color TASEP, Hecke algebra. Diffusion limit of TASEP, Gaussian Free Field.
+    \item Coloured vertex model. R-matrices. Young-Baxter equations. Relationship between coloured vertex model and regular 6 vertex model.
+    \item Hecke algebra of symmetric group. Random walks on Hecke algebras. Connections to the colored stochastic six vertex model.
+    \item Diffusion limit of TASEP. Symmetric systems. Gaussian Free Field.
 \end{enumerate}
+
+\bibliography{literature.bib}
+\bibliographystyle{alpha}
+\nocite{*}
 \end{document}
